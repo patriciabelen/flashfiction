@@ -1,0 +1,185 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+i {
+  font-variation-settings: 'ital' 1;
+  font-style: italic;
+}
+b {
+	font-weight: 700;
+	color: #fff;
+}
+img, iframe {
+  vertical-align: bottom;
+  max-width: 100%;
+}
+
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+
+
+
+
+
+
+
+
+
+body {
+font-family: 'Playfair Display', serif;
+	font-size: 26px;
+	line-height: 2;
+	font-weight: 400;
+  
+  background-color: #1c1616;
+	color: #b9ada2;
+}
+
+h2 {
+  font-size: 46px;
+  font-weight: 500;
+	line-height: 1.6;
+  margin: 0px 0 0px 0;
+}
+
+p {
+  margin: 40px 0 40px 0;
+}
+.credits {
+	font-size: 12px;
+	font-weight: 400;
+  margin: 0px 0 10px 0;
+  line-height: 1.5;
+}
+
+section {
+  display: flex;
+}
+
+/*section:nth-child(odd) {
+  flex-direction: row-reverse;
+}*/
+.space {
+	margin-top: 100px;
+}
+section {
+	max-width: 1300px;
+	margin: 0 auto;
+}
+section div {
+  width: 50%;
+}
+
+section div.text  {
+  padding: 240px 60px 60px 60px;
+}
+
+div.full-image {
+	height: 100vh;
+  background-size: cover;
+  background-position: center;
+  
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  border: 30px solid #1c1616;
+}
+
+div.image-1 {
+  background-image: url(Entombment_Rubens.jpg);
+}
+
+div.image-2 {
+  background-image: url(Mary_Rubens.jpeg);
+}
+
+div.image-3 {
+  background-image: url(JUSTUSbody_Rubens2.png);
+}
+
+div.image-4 {
+  background-image: url(JUSTUSfaces_Rubens2.png);
+}
+
+div.image-5 {
+  background-image: url(JUSTUShead_Rubens2.png);
+}
+
+div.image-6 {
+  background-image: url(JUSTUScolors_Rubens2.png);
+}
+
+div.image-7 {
+  background-image: url(JUSTUS_Rubens2.jpg);
+}
+
+@media (max-width: 1000px) {
+  body {
+    font-size: 22px;
+  }
+h2 {
+  font-size: 36px;
+}
+section div.text  {
+  padding: 100px 60px 60px 60px;
+}
+
+}
+@media (max-width: 800px) {
+  body {
+    font-size: 20px;
+  }
+  
+  h2 {
+    font-size: 32px;
+  }
+  
+  
+  section {
+    display: block;
+  }
+  
+  section div {
+    width:  100%;
+  }
+  
+  section div.text {
+    padding: 30px;
+  }
+  
+  div.full-image {
+    height: 100vw;
+  }
+}
